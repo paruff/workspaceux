@@ -4,4 +4,4 @@ MAINTAINER Phil Ruff <paruff@gmail.com>
 RUN apt-get update
 RUN apt-get install -y git docker awscli java maven node
 
-CMD ["/bin/bash"]
+ENTRYPOINT ["/bin/bash"]
